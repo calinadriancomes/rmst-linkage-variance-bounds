@@ -1,0 +1,5 @@
+information,contents,inferential_content
+Typical sparse KM output,Graphical estimates with occasional risk counts,Usually insufficient for exact counts and censoring-compatible variance bounds
+Complete event-risk tables,"Same cohort; exact n, every event time and count, pre-event risks, horizon checkpoint and full retained history",Fix marginal point and score information; permitted censoring locations and pairing remain uncertain
+Complete unlinked endpoint records,Every exact exit time and event indicator; common cohort and full retained follow-up; no cross-endpoint keys,Fix marginal estimates and scores; exact exits can narrow compatible pairing
+Linked individual patient records,Endpoint records with their patient correspondence,Provide the paired empirical reference; paired analysis is preferable when available

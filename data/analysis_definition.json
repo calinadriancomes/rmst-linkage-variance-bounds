@@ -1,0 +1,9 @@
+{
+  "design_file_SHA256": "0572e5d439c096319419380f6e45b4bf14205edc0a1a511d9c030e18a8d4b9d8",
+  "targets_file_SHA256": "7dfe140ba02b7e36ff681ac2eefda12b9acd494fb2c5ae01596e6bc7f2ef8070",
+  "design_SHA256": "be30ecb7a74662445a6cd23c22f95515141efdb46b8a62fe17145f5f2c245fe6",
+  "planned_original_samples": 39000,
+  "completed": 38252,
+  "support_failures": 746,
+  "calculation_failures": 2
+}

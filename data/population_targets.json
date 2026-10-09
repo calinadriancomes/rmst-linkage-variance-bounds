@@ -1,0 +1,132 @@
+{
+  "0": {
+    "theta": 2.0,
+    "method": "analytic FGM"
+  },
+  "1": {
+    "theta": 2.0,
+    "method": "analytic FGM"
+  },
+  "100": {
+    "theta": 0.7991528017874561,
+    "method": "continuous analytic"
+  },
+  "101": {
+    "theta": 0.7991528017874561,
+    "method": "continuous analytic"
+  },
+  "102": {
+    "theta": 0.3738225362077544,
+    "method": "continuous analytic"
+  },
+  "103": {
+    "theta": 0.3738225362077544,
+    "method": "continuous analytic"
+  },
+  "104": {
+    "theta": 0.599364601340592,
+    "method": "continuous analytic"
+  },
+  "105": {
+    "theta": 0.599364601340592,
+    "method": "continuous analytic"
+  },
+  "106": {
+    "theta": 0.28036690215581583,
+    "method": "continuous analytic"
+  },
+  "107": {
+    "theta": 0.28036690215581583,
+    "method": "continuous analytic"
+  },
+  "108": {
+    "theta": 0.39957640089372803,
+    "method": "continuous analytic"
+  },
+  "109": {
+    "theta": 0.39957640089372803,
+    "method": "continuous analytic"
+  },
+  "110": {
+    "theta": 0.1869112681038772,
+    "method": "continuous analytic"
+  },
+  "111": {
+    "theta": 0.1869112681038772,
+    "method": "continuous analytic"
+  },
+  "112": {
+    "theta": 0.599364601340592,
+    "method": "continuous analytic"
+  },
+  "113": {
+    "theta": 0.599364601340592,
+    "method": "continuous analytic"
+  },
+  "114": {
+    "theta": 0.1869112681038772,
+    "method": "continuous analytic"
+  },
+  "115": {
+    "theta": 0.1869112681038772,
+    "method": "continuous analytic"
+  },
+  "116": {
+    "theta": 0.599364601340592,
+    "method": "continuous analytic"
+  },
+  "117": {
+    "theta": 0.1869112681038772,
+    "method": "continuous analytic"
+  },
+  "118": {
+    "theta": 0.27529270273352147,
+    "decimal": "0.275292702733521439454807539869157438187135432553155597571032",
+    "independent_geometric_decimal": "0.275292702733521439454807539869157438187135432553155597571028",
+    "finite_sum_float": 0.27529270273352147,
+    "geometric_float": 0.2752927027335214,
+    "method": "genuine latent lattice target"
+  },
+  "119": {
+    "theta": 0.26513275171356765,
+    "decimal": "0.265132751713567663426155492334213377398634698225565279160584",
+    "independent_geometric_decimal": "0.265132751713567663426155492334213377398634698225565279160584",
+    "finite_sum_float": 0.26513275171356765,
+    "geometric_float": 0.26513275171356776,
+    "method": "genuine latent lattice target"
+  },
+  "120": {
+    "theta": 0.26232754391552293,
+    "independent_quantile_theta": 0.2623275439155361,
+    "quadrature_error_estimate": 7.459033390944114e-13,
+    "independent_error_estimate": 3.1225022567582528e-15,
+    "absolute_agreement": 1.3197776205231548e-14,
+    "scale_P": 0.8398848912916393,
+    "scale_W": 0.4199424456458197,
+    "method": "independent density and probability-quantile integrals; incomplete-gamma restricted mean",
+    "error_status": "adaptive numerical error estimates, not a rigorously proved enclosure"
+  },
+  "121": {
+    "theta": 0.30591336061301166,
+    "independent_quantile_theta": 0.305913360613026,
+    "quadrature_error_estimate": 4.814065812652757e-13,
+    "independent_error_estimate": 6.37032093742107e-13,
+    "absolute_agreement": 1.432187701766452e-14,
+    "scale_P": 1.1077321674324725,
+    "scale_W": 0.5538660837162362,
+    "method": "independent density and probability-quantile integrals; incomplete-gamma restricted mean",
+    "error_status": "adaptive numerical error estimates, not a rigorously proved enclosure"
+  },
+  "122": {
+    "theta": 0.22572615386023462,
+    "method": "continuous analytic"
+  },
+  "123": {
+    "theta": 0.28036690215581583,
+    "method": "continuous analytic"
+  },
+  "124": {
+    "theta": 0.28036690215581583,
+    "method": "continuous analytic"
+  }
+}

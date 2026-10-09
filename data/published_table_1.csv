@@ -1,0 +1,5 @@
+Information available,What is supplied,Inference for the contrast
+Linked records,Exact endpoint observations with common patient identifiers,Point estimate and empirical paired variance
+R1: exact unlinked records,"Complete marginal event/censor records, including post-horizon follow-up","Point estimate, marginal scores and attained record-compatible variance endpoints"
+R2: complete event-risk tables,"Every event time, multiplicity and pre-event risk; exact \(y(\tau)\); full post-horizon event history",Same point estimate and marginal multisets of case-weight derivatives; attained table-compatible variance endpoints
+Ordinary sparse survival figures,Curve coordinates and occasional risk counts,Current exact-release procedure is not directly applicable

@@ -1,0 +1,14 @@
+[
+  {
+    "table": 1,
+    "title": "Information required for paired and marginal-release analyses",
+    "note": "*Note.* Both endpoints must describe the same known cohort, baseline and time scale, with one unweighted right-censored observation per patient and no delayed entry. Events take precedence over censoring at ties. Equal totals alone do not establish common membership. The risk convention is \\(y(t)=\\#\\{X_i\\ge t\\}\\). Complete tables require every exact event time and count, its pre-event risk, \\(y(\\tau)\\) and all event history after \\(\\tau\\). Statistical sufficiency does not establish permission to disclose or a privacy guarantee. A valid paired analysis is preferable when available.",
+    "csv": "published_table_1.csv"
+  },
+  {
+    "table": 2,
+    "title": "Simulation design and analysis availability",
+    "note": "*Note.* All 39,000 planned samples were attempted. Support-valid samples include the two original computation failures; completed calculations exclude them. No unsupported or failed sample was replaced. The eight prespecified \\(q>0\\) core scenarios are a subset of the 12-scenario factorial family. Coverage among completed intervals and covered/planned yield have different denominators. The Supplementary Information reports the scenario definitions and targets. Data S1, sheets Method_summaries and Distribution_summaries, gives every method-specific summary.",
+    "csv": "published_table_2.csv"
+  }
+]

@@ -1,0 +1,10 @@
+module,law,n,tau,scenarios,planned,supported,completed,support_failed,calculation_failed
+Uncensored controls,FGM with separated supports; a=−1 or 1,200,3,2,2000,2000,1998,0,2
+Exponential factorial,"Exponential: q=0,0.25,0.5; λW=0.5,2; c=0.25,0.75",200,2,12,24000,23989,23989,11,0
+Sample-size anchors,Low and high exponential anchors,"100,500",2,4,4000,3970,3970,30,0
+Common censoring,Low and high anchors with genuinely common censoring,200,2,2,2000,1999,1999,1,0
+Genuine discrete times,Latent absolute times discretized first; h=0.1 or 0.25,200,2,2,2000,2000,2000,0,0
+Weibull shape,Weibull shapes 0.75 and 1.5,200,2,2,2000,2000,2000,0,0
+Limited horizon support,High-censor exponential law,100,3,1,1000,588,588,412,0
+Informative censoring,Informative censoring; γ=0.7,200,2,2,2000,1708,1708,292,0
+Total,,,,27,39000,38254,38252,746,2

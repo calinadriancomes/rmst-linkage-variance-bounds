@@ -1,0 +1,33 @@
+{
+  "P": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      3,
+      0
+    ]
+  ],
+  "D": [
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ]
+  ],
+  "tau": 2,
+  "source": "Deterministic tied-event example",
+  "convention": "event before censor at equal time; endpoint-specific censoring"
+}

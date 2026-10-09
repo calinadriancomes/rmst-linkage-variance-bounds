@@ -1,0 +1,3 @@
+cell,replicate,reported_status,original_support_valid,current_code_diagnostic,reported_outcome_replaced
+0,1,calculation_failed,true,completes,false
+1,62,calculation_failed,true,completes,false
