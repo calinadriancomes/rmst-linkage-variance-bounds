@@ -1,8 +1,6 @@
 # Variance bounds for time alive after progression
 
-This repository accompanies *Variance bounds for restricted mean time alive after progression from exact marginal survival information*. It contains the method implementation, analysis scripts, compact examples and stored aggregate results used to reproduce the article's main tables and figures.
-
-The article considers two exact marginal information settings: complete unlinked endpoint records (R1) and complete event-risk tables from a known common cohort (R2). The reproduction notebook checks the method on small examples and rebuilds the reported displays from stored aggregate results.
+This repository provides the method implementation, analysis scripts, compact examples and stored aggregate results for variance bounds on restricted mean time alive after progression using exact marginal survival information. The reproduction notebook checks small examples and rebuilds the main tables and figures from stored results.
 
 ## Reproduce the reported results
 
@@ -36,7 +34,7 @@ These commands reproduce the reported displays from stored results and small exa
 
 ## Citation
 
-Călin-Adrian Comes and Vasile Paul Bresfelean. *Variance bounds for restricted mean time alive after progression from exact marginal survival information*. Publication details will be added when available.
+Publication details will be added when available.
 
 ## Licenses
 
