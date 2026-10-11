@@ -29,7 +29,11 @@ class Margin:
 
 
 def daly_order(tp, sp, td, sd):
-    """Literal event-time order filter for independently resampled endpoint records."""
+    """Evaluated event-time filter, including rejection of a death margin with no events.
+
+    The empty-event guard is an additional rejection rule, not a curve-order violation.
+    It is retained to describe the reported comparator without changing its outcomes.
+    """
     if not len(td):
         return False
     ix = np.searchsorted(tp, td, side='right') - 1

@@ -20,12 +20,25 @@ Rscript data/rotterdam_construct.R survival_3.8-12.tar.gz rotterdam_check.csv
 
 All 2,982 persons are retained at 1,826.25 days. The progression-free endpoint uses recorded recurrence when present, an observed death before or at the recurrence follow-up boundary otherwise and that earlier boundary as a censored exit when neither applies. The death endpoint retains its own follow-up. All 43 deaths after earlier recurrence censoring remain included; recurrence follow-up is not extended to those deaths. The paired reference uses recorded correspondence rather than latent recurrence ground truth. No treatment or subgroup analysis is included.
 
-For the optional Python analysis, export the source columns locally in R after loading the exact archive:
+For the optional Python analysis, verify the archive checksum above, run the constructor check and load the same archive in the R session that exports the source columns:
 
 ```r
-write.csv(rotterdam[c("pid", "rtime", "recur", "dtime", "death")],
-          "rotterdam_source.csv", row.names=FALSE)
+archive <- "survival_3.8-12.tar.gz"
+folder <- tempfile()
+dir.create(folder)
+untar(archive, exdir = folder, tar = "internal")
+desc <- read.dcf(file.path(folder, "survival", "DESCRIPTION"))
+stopifnot(desc[1, "Version"] == "3.8-12")
+source_data <- new.env()
+load(file.path(folder, "survival", "data", "cancer.rda"), envir = source_data)
+z <- source_data$rotterdam
+stopifnot(nrow(z) == 2982, length(unique(z$pid)) == 2982)
+write.csv(z[c("pid", "rtime", "recur", "dtime", "death")],
+          "rotterdam_source.csv", row.names = FALSE)
+unlink(folder, recursive = TRUE)
 ```
+
+The optional analysis then runs as `python analysis/rotterdam.py rotterdam_source.csv rotterdam_analysis.json`. It estimates the recorded-data results; it is not part of the aggregate-display reproduction route.
 
 The constructor's count check is separate from this source CSV and from variance estimation. Person-level source data and the third-party archive are not distributed in this repository. Dataset attribution appears in the survival package manual and the article's references.
 

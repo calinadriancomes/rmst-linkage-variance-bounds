@@ -50,6 +50,16 @@ class AnalysisExamples(unittest.TestCase):
                 self.assertLess(abs(b[0] - float(row["rmst_d"])), 1e-10)
                 self.assertEqual(daly_order(*a[1:3], *b[1:3]), row["accepted"] == "TRUE")
 
+    def test_empty_death_margin_rejection_is_not_an_order_violation(self):
+        p = [(1, 1), (2, 1), (4, 0)]
+        d = [(4, 0), (4, 0), (4, 0)]
+        mp, tp, sp, sup_p = Margin(p, 3).curve(np.ones(3))
+        md, td, sd, sup_d = Margin(d, 3).curve(np.ones(3))
+        self.assertTrue(sup_p and sup_d)
+        self.assertEqual(len(td), 0)
+        self.assertTrue(np.all(sp <= 1))  # The death curve is identically one.
+        self.assertFalse(daly_order(tp, sp, td, sd))
+
     def test_caps_and_support_retained(self):
         p = [(3, 0), (3, 0)]
         indices = (np.array([0, 1]), np.array([0, 1]))
