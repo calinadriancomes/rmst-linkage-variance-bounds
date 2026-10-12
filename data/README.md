@@ -45,3 +45,5 @@ The constructor's count check is separate from this source CSV and from variance
 ## Input requirements
 
 The method requires complete unlinked endpoint records (R1) or full exact event-risk tables with the horizon checkpoint (R2) from the same known cohort. Sparse published Kaplan–Meier curves are insufficient. Scenario definitions and population targets describe the declared simulation inputs; the [analysis guide](../analysis/README.md) describes optional full execution.
+
+The original simulations evaluate the complete full-history R1 and R2 releases. For a prespecified, data-supported fixed horizon, administrative censoring preserves the attainable upper empirical-variance endpoint using exact through-horizon information and the required horizon checkpoint. Under separate censoring, the lower endpoint may decrease; under genuinely common censoring, both endpoints are preserved. See [fixed-horizon release guidance](../HORIZON_RELEASE_NOTES.md) for the release variants and their conditions.

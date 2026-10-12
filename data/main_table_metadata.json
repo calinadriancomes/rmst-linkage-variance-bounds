@@ -1,8 +1,8 @@
 [
   {
     "table": 1,
-    "title": "Information required for paired and marginal-release analyses",
-    "note": "*Note.* Both endpoints must describe the same known cohort, baseline and time scale, with one unweighted right-censored observation per patient and no delayed entry. Events take precedence over censoring at ties. Equal totals alone do not establish common membership. The risk convention is \\(y(t)=\\#\\{X_i\\ge t\\}\\). Complete tables require every exact event time and count, its pre-event risk, \\(y(\\tau)\\) and all event history after \\(\\tau\\). Statistical sufficiency does not establish permission to disclose or a privacy guarantee. A valid paired analysis is preferable when available.",
+    "title": "Full-history information used in paired and marginal-release analyses",
+    "note": "*Note.* Both endpoints must describe the same known cohort, baseline and time scale, with one unweighted right-censored observation per patient and no delayed entry. Events take precedence over censoring at ties. Equal totals alone do not establish common membership. The risk convention is \\(y(t)=\\#\\{X_i\\ge t\\}\\). Complete tables require every exact event time and count, its pre-event risk, \\(y(\\tau)\\) and all event history after \\(\\tau\\). Statistical sufficiency does not establish permission to disclose or a privacy guarantee. A valid paired analysis is preferable when available. Administrative censoring preserves the upper endpoint using complete event-risk information through \\(\\tau\\) and the exact horizon checkpoint (Section S4.5).",
     "csv": "published_table_1.csv"
   },
   {
