@@ -1,0 +1,19 @@
+{
+  "point": 234.28848859007326,
+  "rmst_P": 1383.7617038144788,
+  "rmst_D": 1618.050192404552,
+  "var_P": 118.89445093582695,
+  "var_D": 59.56165068375469,
+  "lower": 32.91655016055627,
+  "upper": 105.01687556404875,
+  "edge_count": 7286426,
+  "interval_lower": 214.20322028324568,
+  "interval_upper": 254.37375689690083,
+  "width": 40.170536613655145,
+  "method": "R2 terminal-prefix tables",
+  "source_input_only": [
+    "P_event_risk.csv",
+    "D_event_risk.csv",
+    "metadata.json"
+  ]
+}

@@ -12,6 +12,7 @@ This repository provides the method implementation, analysis scripts, compact ex
 - `src/`: marginal estimators and compatible variance bounds.
 - `src/horizon_release.py` and `HORIZON_RELEASE_NOTES.md`: tools and guidance for preparing exact marginal survival releases at a fixed time horizon.
 - `analysis/`: simulation, bootstrap and Rotterdam analysis scripts.
+- `extensions/`: a marginal-table example and a paired-reference calibration check.
 - `code/`: input checks and table and figure reproduction.
 - `data/`: aggregate results, scenario definitions and population targets.
 - `examples/` and `tests/`: small deterministic examples and unit tests.

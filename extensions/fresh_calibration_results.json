@@ -1,0 +1,51 @@
+{
+  "seed": 2026101317,
+  "replicates_per_scenario": 20000,
+  "scope": "fresh paired-only sensitivity check; original aggregates not modified; independent RNG stream and sampling implementation, authors scoring code validated separately",
+  "results": [
+    {
+      "n": 20000,
+      "covered": 18957,
+      "coverage": 0.94785,
+      "wilson95": [
+        0.9446818202584435,
+        0.9508461730461035
+      ],
+      "bias": 0.0006435492121056319,
+      "rmse": 0.032986299515523676,
+      "variance_ratio": 0.984794883614346,
+      "mean_variance": 0.0010711970316293394,
+      "empirical_variance": 0.0010877361869487832,
+      "q": 0.25,
+      "lambda_W": 0.5,
+      "c": 0.25,
+      "planned": 20000,
+      "support_failures": 0,
+      "n_patients": 500,
+      "truth": 0.599364601340592
+    },
+    {
+      "n": 20000,
+      "covered": 18938,
+      "coverage": 0.9469,
+      "wilson95": [
+        0.9437056403584116,
+        0.9499227178146419
+      ],
+      "bias": 6.546059977155516e-05,
+      "rmse": 0.034220529685314756,
+      "variance_ratio": 0.9805807975886027,
+      "mean_variance": 0.0011483571147932825,
+      "empirical_variance": 0.0011710989217994757,
+      "q": 0.5,
+      "lambda_W": 2,
+      "c": 0.75,
+      "planned": 20000,
+      "support_failures": 0,
+      "n_patients": 500,
+      "truth": 0.1869112681038772
+    }
+  ],
+  "seconds_total": 145.34298133850098,
+  "P_binomial_1000_at_most_933_if_p95": 0.010591310429653025
+}

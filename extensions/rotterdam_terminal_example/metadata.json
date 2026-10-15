@@ -1,0 +1,23 @@
+{
+  "data_source": "Terry M. Therneau, survival 3.8-12 (CRAN); Rotterdam data as described by Royston and Altman (2013)",
+  "original_package_archive_sha256": "ebb70d9a4e7e8ad7f886a563184d6f079e64c0591a0bce219ae90967f0bdf994",
+  "cohort_membership": "both margins from the same 2982 publicly distributed Rotterdam patient records; membership verified during source derivation, not inferable from marginal files",
+  "common_origin": "original Rotterdam baseline",
+  "time_units": "days",
+  "n": 2982,
+  "tau": 1826.25,
+  "risk_convention": "n_risk counts exits >= t immediately before events at t; event precedence at ties",
+  "P_endpoint": "recorded recurrence or observed death within recurrence follow-up; no later OS event used to extend prior recurrence censoring",
+  "D_endpoint": "recorded death or censoring according to original OS follow-up",
+  "censoring_model": "separate",
+  "P_risk_tau": 1571,
+  "D_risk_tau": 2084,
+  "event_rows": "strictly before tau; boundary events and post-horizon histories withheld",
+  "study_design": "controlled marginal release from publicly distributed linked data, not a naturally unlinked clinical release",
+  "no_patient_identifiers": true,
+  "original_complete_cohort": 2982,
+  "recurrence_events": 1518,
+  "deaths_within_recurrence_window": 152,
+  "P_censored": 1312,
+  "late_OS_deaths_preserved": 43
+}

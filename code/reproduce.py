@@ -260,7 +260,7 @@ def main(data,output):
  rr=rows(data/'bootstrap_operations.csv');ids=[1,102,104,111,119,122]
  labels=['Uncensored\nFGM, a=1','q=0\n'+r'$\lambda_W=2$'+'\n'+r'$\lambda_C=0.25$','q=0.25\n'+r'$\lambda_W=0.5$'+'\n'+r'$\lambda_C=0.25$','q=0.5\n'+r'$\lambda_W=2$'+'\n'+r'$\lambda_C=0.75$','Discrete\nh=0.25','Limited support\nn=100, τ=3']
  handles=[];legend_labels=[]
- modes=[('literal','Literal order-filtered','o','#111111'),('support_conditioned','Support-conditioned','s','#0072B2'),('paired','Paired bootstrap','^','#D55E00')]
+ modes=[('literal','Modified order-filtered','o','#111111'),('support_conditioned','Support-conditioned','s','#0072B2'),('paired','Paired bootstrap','^','#D55E00')]
  for row,metric in enumerate(['cap_rate','unsupported_fraction_of_accepted']):
   ax=axs[row,0]
   for (mode,label,marker,color),off in zip(modes,[-.14,0,.14]):
